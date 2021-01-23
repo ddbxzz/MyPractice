@@ -59,11 +59,32 @@ public class LengthOfLongestSubstring {
         return max;
     }
 
+    //参考：https://github.com/wind-liang/leetcode/blob/master/leetCode-3-Longest-Substring-Without-Repeating-Characters.md
+    //trick仅适合ASCII字符
+    public int lengthOfLongestSubstring3(String s) {
+        // 记录字符上一次出现的位置
+        int[] last = new int[128];
+        for(int i = 0; i < 128; i++) {
+            last[i] = -1;
+        }
+        int n = s.length();
+
+        int max = 0;
+        int start = 0; // 窗口开始位置
+        for(int i = 0; i < n; i++) {
+            int index = s.charAt(i);
+            start = Math.max(start, last[index] + 1);
+            max = Math.max(max, i - start + 1);
+            last[index] = i;
+        }
+
+        return max;
+    }
 
     @Test
     public void test1() {
         String s = "'aaabccd";
         HashSet<Character> aaa = new HashSet<>();
-        System.out.println(lengthOfLongestSubstring2(s));
+        System.out.println(lengthOfLongestSubstring3(s));
     }
 }
