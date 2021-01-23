@@ -37,6 +37,7 @@ public class LengthOfLongestSubstring {
         return max;
     }
 
+    //滑动窗口
     public int lengthOfLongestSubstring2(String s) {
         int max = 0;
         int rp = -1;
