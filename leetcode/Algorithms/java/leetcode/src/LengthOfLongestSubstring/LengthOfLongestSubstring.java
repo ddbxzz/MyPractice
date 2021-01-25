@@ -83,7 +83,7 @@ public class LengthOfLongestSubstring {
 
     @Test
     public void test1() {
-        String s = "'aaabccd";
+        String s = "abcabcbb";
         HashSet<Character> aaa = new HashSet<>();
         System.out.println(lengthOfLongestSubstring3(s));
     }
