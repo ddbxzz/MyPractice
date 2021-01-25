@@ -12,4 +12,10 @@ LeetCode
 |5|
 |6|
 |7|[Reverse Integer](https://leetcode-cn.com/problems/reverse-integer/)| [Java](./Algorithms/java/leetcode/src/ReverseInteger/Solution.java) |Easy|
+|8|
+|9|[Palindrome Number](https://leetcode-cn.com/problems/palindrome-number/)| [Java](./Algorithms/java/leetcode/src/PalindromeNumber/Solution.java) |Easy|
+|10|
+|11|
+|12|
+|13|
 
