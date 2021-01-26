@@ -25,4 +25,4 @@ LeetCode
 |18|
 |19|
 |20|[Valid Parentheses](https://leetcode-cn.com/problems/valid-parentheses/)| [Java](./Algorithms/java/leetcode/src/ValidParentheses/Solution.java) |Easy|
-|21|[Merge Two Sorted Lists](https://leetcode-cn.com/problems/merge-two-sorted-lists/)| [Java](./Algorithms/java/leetcode/src/ValidParentheses/Solution.java) |Easy|
+|21|[Merge Two Sorted Lists](https://leetcode-cn.com/problems/merge-two-sorted-lists/)| [Java](./Algorithms/java/leetcode/src/MergeTwoLists/Solution.java) |Easy|
