@@ -18,4 +18,5 @@ LeetCode
 |11|
 |12|
 |13|[Roman to Integer](https://leetcode-cn.com/problems/roman-to-integer/)| [Java](./Algorithms/java/leetcode/src/RomanToInt/Solution.java) |Easy|
+|14|[Longest Common Prefix](https://leetcode-cn.com/problems/longest-common-prefix/)| [Java](./Algorithms/java/leetcode/src/LongestCommonPrefix/Solution.java) |Easy|
 
