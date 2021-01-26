@@ -19,4 +19,9 @@ LeetCode
 |12|
 |13|[Roman to Integer](https://leetcode-cn.com/problems/roman-to-integer/)| [Java](./Algorithms/java/leetcode/src/RomanToInt/Solution.java) |Easy|
 |14|[Longest Common Prefix](https://leetcode-cn.com/problems/longest-common-prefix/)| [Java](./Algorithms/java/leetcode/src/LongestCommonPrefix/Solution.java) |Easy|
-
+|15|
+|16|
+|17|
+|18|
+|19|
+|20|[Valid Parentheses](https://leetcode-cn.com/problems/valid-parentheses/)| [Java](./Algorithms/java/leetcode/src/ValidParentheses/Solution.java) |Easy|
