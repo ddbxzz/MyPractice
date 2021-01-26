@@ -26,3 +26,8 @@ LeetCode
 |19|
 |20|[Valid Parentheses](https://leetcode-cn.com/problems/valid-parentheses/)| [Java](./Algorithms/java/leetcode/src/ValidParentheses/Solution.java) |Easy|
 |21|[Merge Two Sorted Lists](https://leetcode-cn.com/problems/merge-two-sorted-lists/)| [Java](./Algorithms/java/leetcode/src/MergeTwoLists/Solution.java) |Easy|
+|22|
+|23|
+|24|
+|25|
+|26|[Remove Duplicates from Sorted Array](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/)| [Java](./Algorithms/java/leetcode/src/MergeTwoLists/Solution.java) |Easy|
