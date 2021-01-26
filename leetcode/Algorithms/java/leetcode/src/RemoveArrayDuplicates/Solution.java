@@ -2,7 +2,7 @@ package RemoveArrayDuplicates;
 
 import org.junit.Test;
 
-public class Soution {
+public class Solution {
     public int removeDuplicates(int[] nums) {
         if (nums.length == 0) {
             return 0;
