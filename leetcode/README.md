@@ -30,4 +30,4 @@ LeetCode
 |23|
 |24|
 |25|
-|26|[Remove Duplicates from Sorted Array](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/)| [Java](./Algorithms/java/leetcode/src/MergeTwoLists/Solution.java) |Easy|
+|26|[Remove Duplicates from Sorted Array](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/)| [Java](./Algorithms/java/leetcode/src/RemoveArrayDuplicates/Solution.java) |Easy|
