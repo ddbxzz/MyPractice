@@ -44,6 +44,7 @@ LeetCode
 |37|
 |38|[Count and Say](https://leetcode-cn.com/problems/count-and-say/)| [Java](./Algorithms/java/leetcode/src/CountAndSay/Solution.java) |Easy|
 
+|53|[Maximum Subarray](https://leetcode-cn.com/problems/maximum-subarray/)| [Java](./Algorithms/java/leetcode/src/MaximumSubarray/Solution.java) |Easy|
 
 
 
