@@ -33,6 +33,13 @@ LeetCode
 |26|[Remove Duplicates from Sorted Array](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/)| [Java](./Algorithms/java/leetcode/src/RemoveArrayDuplicates/Solution.java) |Easy|
 |27|[Remove Element](https://leetcode-cn.com/problems/remove-element/)| [Java](./Algorithms/java/leetcode/src/RemoveElement/Solution.java) |Easy|
 |28|[Implement strStr()](https://leetcode-cn.com/problems/implement-strstr/)| [Java](./Algorithms/java/leetcode/src/ImplementstrStr/Solution.java) |Easy|
+|29|
+|30|
+|31|
+|32|
+|33|
+|34|
+|35|[Search Insert Position](https://leetcode-cn.com/problems/search-insert-position/)| [Java](./Algorithms/java/leetcode/src/SearchInsertPosition/Solution.java) |Easy|
 
 
 
