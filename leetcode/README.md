@@ -40,6 +40,16 @@ LeetCode
 |33|
 |34|
 |35|[Search Insert Position](https://leetcode-cn.com/problems/search-insert-position/)| [Java](./Algorithms/java/leetcode/src/SearchInsertPosition/Solution.java) |Easy|
+|36|
+|37|
+|38|[Count and Say](https://leetcode-cn.com/problems/count-and-say/)| [Java](./Algorithms/java/leetcode/src/CountAndSay/Solution.java) |Easy|
+
+
+
+
+
+
+
 
 
 
