@@ -46,6 +46,7 @@ LeetCode
 |39|
 |53|[Maximum Subarray](https://leetcode-cn.com/problems/maximum-subarray/)| [Java](./Algorithms/java/leetcode/src/MaximumSubarray/Solution.java) |Easy|
 |58|[Length of Last Word](https://leetcode-cn.com/problems/length-of-last-word/)| [Java](./Algorithms/java/leetcode/src/LengthLastWord/Solution.java) |Easy|
+|58|[Plus One](https://leetcode-cn.com/problems/plus-one/)| [Java](./Algorithms/java/leetcode/src/PlusOne/Solution.java) |Easy|
 
 
 
