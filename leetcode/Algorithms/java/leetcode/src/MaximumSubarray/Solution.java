@@ -62,6 +62,28 @@ public class Solution {
     }
 
     //在线
+    public int maxSubArray3(int[] nums) {
+        if (nums.length == 1) {
+            return nums[0];
+        }
+
+        int maxSum = nums[0];
+        int tmpSum = 0;
+        for (int i = 0; i < nums.length; i++) {
+            tmpSum += nums[i];
+
+            if (tmpSum > maxSum) {
+                maxSum = tmpSum;
+            }
+
+            if (tmpSum < 0) {
+                tmpSum = 0;
+                continue;
+            }
+        }
+
+        return maxSum;
+    }
 
     @Test
     public void test() {
@@ -70,10 +92,10 @@ public class Solution {
         int[] nums3 = {1, 2};
         int[] nums4 = {-2, 1};
         int[] nums5 = {-2,-1};
-        assert (maxSubArray2(nums1) == maxSubArray1(nums1));
-        assert (maxSubArray2(nums2) == maxSubArray1(nums2));
-        assert (maxSubArray2(nums3) == maxSubArray1(nums3));
-        assert (maxSubArray2(nums4) == maxSubArray1(nums4));
-        assert (maxSubArray2(nums5) == maxSubArray1(nums5));
+        assert (maxSubArray3(nums1) == maxSubArray1(nums1));
+        assert (maxSubArray3(nums2) == maxSubArray1(nums2));
+        assert (maxSubArray3(nums3) == maxSubArray1(nums3));
+        assert (maxSubArray3(nums4) == maxSubArray1(nums4));
+        assert (maxSubArray3(nums5) == maxSubArray1(nums5));
     }
 }
