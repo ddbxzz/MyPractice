@@ -48,7 +48,8 @@ LeetCode
 |58|[Length of Last Word](https://leetcode-cn.com/problems/length-of-last-word/)| [Java](./Algorithms/java/leetcode/src/LengthLastWord/Solution.java) |Easy|
 |66|[Plus One](https://leetcode-cn.com/problems/plus-one/)| [Java](./Algorithms/java/leetcode/src/PlusOne/Solution.java) |Easy|
 |67|[Add Binary](https://leetcode-cn.com/problems/add-binary/)| [Java](./Algorithms/java/leetcode/src/AddBinary/Solution.java) |Easy|
-|67|[Sqrt(x)](https://leetcode-cn.com/problems/sqrtx/)| [Java](./Algorithms/java/leetcode/src/SqrtX/Solution.java) |Easy|
+|69|[Sqrt(x)](https://leetcode-cn.com/problems/sqrtx/)| [Java](./Algorithms/java/leetcode/src/SqrtX/Solution.java) |Easy|
+|70|[Climbing Stairs](https://leetcode-cn.com/problems/climbing-stairs/)| [Java](./Algorithms/java/leetcode/src/ClimbingStairs/Solution.java) |Easy|
 
 
 
