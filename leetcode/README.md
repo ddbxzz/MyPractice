@@ -51,6 +51,7 @@ LeetCode
 |69|[Sqrt(x)](https://leetcode-cn.com/problems/sqrtx/)| [Java](./Algorithms/java/leetcode/src/SqrtX/Solution.java) |Easy|
 |70|[Climbing Stairs](https://leetcode-cn.com/problems/climbing-stairs/)| [Java](./Algorithms/java/leetcode/src/ClimbingStairs/Solution.java) |Easy|
 |83|[Remove Duplicates from Sorted List](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/)| [Java](./Algorithms/java/leetcode/src/DeleteDuplicatesList/Solution.java) |Easy|
+|88|[Merge Sorted Array](https://leetcode-cn.com/problems/merge-sorted-array/)| [Java](./Algorithms/java/leetcode/src/DeleteDuplicatesList/Solution.java) |Easy|
 
 
 
