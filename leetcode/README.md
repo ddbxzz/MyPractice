@@ -53,6 +53,7 @@ LeetCode
 |83|[Remove Duplicates from Sorted List](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/)| [Java](./Algorithms/java/leetcode/src/DeleteDuplicatesList/Solution.java) |Easy|
 |88|[Merge Sorted Array](https://leetcode-cn.com/problems/merge-sorted-array/)| [Java](./Algorithms/java/leetcode/src/MergeSortedArray/Solution.java) |Easy|
 |100|[Same Tree](https://leetcode-cn.com/problems/same-tree/)| [Java](./Algorithms/java/leetcode/src/SameTree/Solution.java) |Easy|
+|101|[Symmetric Tree](https://leetcode-cn.com/problems/symmetric-tree/)| [Java](./Algorithms/java/leetcode/src/SymmetricTree/Solution.java) |Easy|
 
 
 
