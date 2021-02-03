@@ -54,6 +54,7 @@ LeetCode
 |88|[Merge Sorted Array](https://leetcode-cn.com/problems/merge-sorted-array/)| [Java](./Algorithms/java/leetcode/src/MergeSortedArray/Solution.java) |Easy|
 |100|[Same Tree](https://leetcode-cn.com/problems/same-tree/)| [Java](./Algorithms/java/leetcode/src/SameTree/Solution.java) |Easy|
 |101|[Symmetric Tree](https://leetcode-cn.com/problems/symmetric-tree/)| [Java](./Algorithms/java/leetcode/src/SymmetricTree/Solution.java) |Easy|
+|104|[Maximum Depth of Binary Tree](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/)| [Java](./Algorithms/java/leetcode/src/MaxDepthBinTree/Solution.java) |Easy|
 
 
 
