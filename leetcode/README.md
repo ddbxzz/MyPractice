@@ -60,6 +60,7 @@ LeetCode
 |110|[Balanced Binary Tree](https://leetcode-cn.com/problems/balanced-binary-tree/)| [Java](./Algorithms/java/leetcode/src/BalancedBinaryTree/Solution.java) |Easy|
 |111|[Minimum Depth of Binary Tree](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/)| [Java](./Algorithms/java/leetcode/src/MinDepthBinTree/Solution.java) |Easy|
 |112|[Path Sum](https://leetcode-cn.com/problems/path-sum/)| [Java](./Algorithms/java/leetcode/src/PathSum/Solution.java) |Easy|
+|118|[Pascal's Triangle](https://leetcode-cn.com/problems/pascals-triangle/)| [Java](./Algorithms/java/leetcode/src/PascalTriangle/Solution.java) |Easy|
 
 
 
