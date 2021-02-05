@@ -62,6 +62,7 @@ LeetCode
 |112|[Path Sum](https://leetcode-cn.com/problems/path-sum/)| [Java](./Algorithms/java/leetcode/src/PathSum/Solution.java) |Easy|
 |118|[Pascal's Triangle](https://leetcode-cn.com/problems/pascals-triangle/)| [Java](./Algorithms/java/leetcode/src/PascalTriangle/Solution.java) |Easy|
 |119|[Pascal's Triangle II](https://leetcode-cn.com/problems/pascals-triangle-ii/)| [Java](./Algorithms/java/leetcode/src/PascalTriangleII/Solution.java) |Easy|
+|121|[Best Time to Buy and Sell Stock](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/)| [Java](./Algorithms/java/leetcode/src/BestTimeStock/Solution.java) |Easy|
 
 
 
