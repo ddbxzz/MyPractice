@@ -4,18 +4,6 @@ package BestTimeStock;
 public class Solution {
 
     //动态规划
-    /*
-    推导状态转移方程：
-
-dp[i][0]：规定了今天不持股，有以下两种情况：
-
-昨天不持股，今天什么都不做；
-昨天持股，今天卖出股票（现金数增加），
-dp[i][1]：规定了今天持股，有以下两种情况：
-
-昨天持股，今天什么都不做（现金数与昨天一样）；
-昨天不持股，今天买入股票（注意：只允许交易一次，因此手上的现金数就是当天的股价的相反数）。
-     */
     public int maxProfit1(int[] prices) {
         int len = prices.length;
         if (len < 2) {
