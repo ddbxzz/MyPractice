@@ -65,6 +65,7 @@ LeetCode
 |121|[Best Time to Buy and Sell Stock](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/)| [Java](./Algorithms/java/leetcode/src/BestTimeStock/Solution.java) |Easy|
 |122|[Best Time to Buy and Sell Stock II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/)| [Java](./Algorithms/java/leetcode/src/BestTimeStockII/Solution.java) |Easy|
 |125|[Valid Palindrome](https://leetcode-cn.com/problems/valid-palindrome/)| [Java](./Algorithms/java/leetcode/src/ValidPalindrome/Solution.java) |Easy|
+|136|[Single Number](https://leetcode-cn.com/problems/single-number/)| [Java](./Algorithms/java/leetcode/src/SingleNumber/Solution.java) |Easy|
 
 
 
