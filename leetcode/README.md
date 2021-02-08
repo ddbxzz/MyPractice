@@ -63,6 +63,8 @@ LeetCode
 |118|[Pascal's Triangle](https://leetcode-cn.com/problems/pascals-triangle/)| [Java](./Algorithms/java/leetcode/src/PascalTriangle/Solution.java) |Easy|
 |119|[Pascal's Triangle II](https://leetcode-cn.com/problems/pascals-triangle-ii/)| [Java](./Algorithms/java/leetcode/src/PascalTriangleII/Solution.java) |Easy|
 |121|[Best Time to Buy and Sell Stock](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/)| [Java](./Algorithms/java/leetcode/src/BestTimeStock/Solution.java) |Easy|
+|122|[Best Time to Buy and Sell Stock II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/)| [Java](./Algorithms/java/leetcode/src/BestTimeStockII/Solution.java) |Easy|
+|125|[Valid Palindrome](https://leetcode-cn.com/problems/valid-palindrome/)| [Java](./Algorithms/java/leetcode/src/ValidPalindrome/Solution.java) |Easy|
 
 
 
