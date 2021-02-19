@@ -9,7 +9,7 @@ LeetCode
 |2|[Add Two Numbers](https://leetcode-cn.com/problems/add-two-numbers/)| [Java](./Algorithms/java/leetcode/src/AddTwoNumbers/AddTwoNumbers.java)|Medium|
 |3|[Longest Substring Without Repeating Characters](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)| [Java](./Algorithms/java/leetcode/src/LengthOfLongestSubstring/LengthOfLongestSubstring.java)|Medium|
 |4|
-|5|
+|5|[Longest Palindromic Substring](https://leetcode-cn.com/problems/longest-palindromic-substring/)| [Java](./Algorithms/java/leetcode/src/LongestPalindromicSubstring/Solution.java)|Medium|
 |6|
 |7|[Reverse Integer](https://leetcode-cn.com/problems/reverse-integer/)| [Java](./Algorithms/java/leetcode/src/ReverseInteger/Solution.java) |Easy|
 |8|
