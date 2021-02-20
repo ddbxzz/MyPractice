@@ -74,15 +74,66 @@ public class Solution {
         return s.substring(begin, begin + maxLen);
     }
 
+    //dynamic programming
+    public String longestPalindrome3(String s) {
+        int len = s.length();
+        if (len < 2) {
+            return s;
+        }
 
+        boolean[][] dp = new boolean[len][len];
 
+        int maxLen = 1;
+        int begin = 0;
+        // s.charAt(i) 每次都会检查数组下标越界，因此先转换成字符数组
+        char[] charArray = s.toCharArray();
+
+/*        for (int i = 0; i < len; i++) {
+            dp[i][i] = true;
+        }*/
+
+        for (int j = 0; j < len; j++) {
+            for (int i = 0; i <= j; i++) {
+                //dp[i][j] = (charArray[i] == charArray[j]) && (j - i < 3 || dp[i + 1][j - 1]);
+                if (charArray[i] != charArray[j]) {
+                    dp[i][j] = false;
+                }
+                else {
+                    if (j - i < 3) {
+                        dp[i][j] = true;
+                    }
+                    else {
+                        dp[i][j] = dp[i + 1][j - 1];
+                    }
+                }
+
+                if (dp[i][j] && maxLen < j - i + 1) {
+                    maxLen = j - i + 1;
+                    begin =i;
+                }
+            }
+        }
+
+        return s.substring(begin, begin + maxLen);
+    }
+
+    //中心扩散法
+    public String longestPalindrome4(String s) {
+        return null;
+    }
+
+    //Manacher 算法
+    public String longestPalindrome5(String s) {
+        return null;
+    }
 
     @Test
     public void test() {
         String s1 = "abcdefghaa";
         String s2 = "a";
         String s3 = "zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz";
-        System.out.println(longestPalindrome2(s3).length());
+        String s4 = "abcbadd";
+        System.out.println(longestPalindrome3(s4));
         System.out.println(s3.length());
     }
 }
