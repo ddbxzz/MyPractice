@@ -119,7 +119,33 @@ public class Solution {
 
     //中心扩散法
     public String longestPalindrome4(String s) {
-        return null;
+        if (s.length() < 2) {
+            return s;
+        }
+
+        int start = 0;
+        int end = 0;
+        int len;
+        for (int i = 0; i < s.length(); i++) {
+            int len1 = expandCenter(s, i, i);
+            int len2 = expandCenter(s, i, i + 1);
+            len = Math.max(len1, len2);
+            if (len > end - start) {
+                start = i - (len -1)/2;
+                end = i + len/2;
+            }
+        }
+
+
+        return s.substring(start, end + 1);
+    }
+
+    private int expandCenter(String s, int lo, int hi) {
+        while (lo >= 0 && hi < s.length() && s.charAt(lo) == s.charAt(hi)) {
+            lo--;
+            hi++;
+        }
+        return hi - lo - 1;
     }
 
     //Manacher 算法
