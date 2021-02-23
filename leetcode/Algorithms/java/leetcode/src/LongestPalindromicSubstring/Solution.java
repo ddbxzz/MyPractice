@@ -150,16 +150,59 @@ public class Solution {
 
     //Manacher 算法
     public String longestPalindrome5(String s) {
-        return null;
+        if (s.length() < 2) {
+            return s;
+        }
+        //添加特殊字符
+        StringBuilder stringBuilder = new StringBuilder("#");
+        for (int i = 0; i < s.length(); i++) {
+            stringBuilder.append(s.charAt(i));
+            stringBuilder.append("#");
+        }
+        String t = stringBuilder.toString();
+
+        int tLen = t.length();
+        int[] p = new int[tLen];
+        int center = 0;
+        int maxRight = 0;
+
+        int start = 0;
+        int maxLen = 0;
+
+        for (int i = 0; i < tLen; i++) {
+            if (i < maxRight) {
+                p[i] = Math.min(p[2 * center - i], maxRight - i);
+            }
+            int lo = i - (1 + p[i]);
+            int hi = i + (1 + p[i]);
+
+            while (lo >= 0 && hi < tLen && t.charAt(lo) == t.charAt(hi)) {
+                lo--;
+                hi++;
+                p[i]++;
+            }
+
+            if (p[i] + i > maxRight) {
+                maxRight = p[i] + i;
+                center = i;
+            }
+
+            if (p[i] > maxLen) {
+                maxLen = p[i];
+                start = (i - maxLen) /2;
+            }
+        }
+
+        return s.substring(start, start + maxLen);
     }
 
     @Test
     public void test() {
         String s1 = "abcdefghaa";
-        String s2 = "a";
+        String s2 = "aacabdkacaa";
         String s3 = "zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz";
         String s4 = "abcbadd";
-        System.out.println(longestPalindrome3(s4));
+        System.out.println(longestPalindrome5(s2));
         System.out.println(s3.length());
     }
 }
