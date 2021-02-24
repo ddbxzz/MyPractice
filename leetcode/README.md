@@ -12,7 +12,7 @@ LeetCode
 |5|[Longest Palindromic Substring](https://leetcode-cn.com/problems/longest-palindromic-substring/)| [Java](./Algorithms/java/leetcode/src/LongestPalindromicSubstring/Solution.java)|Medium|
 |6|[ZigZag Conversion](https://leetcode-cn.com/problems/zigzag-conversion/)| [Java](./Algorithms/java/leetcode/src/ZigZagConversion/Solution.java)|Medium|
 |7|[Reverse Integer](https://leetcode-cn.com/problems/reverse-integer/)| [Java](./Algorithms/java/leetcode/src/ReverseInteger/Solution.java) |Easy|
-|8|
+|8|[String to Integer (atoi)](https://leetcode-cn.com/problems/string-to-integer-atoi/)| [Java](./Algorithms/java/leetcode/src/StringToInteger/Solution.java)|Medium|
 |9|[Palindrome Number](https://leetcode-cn.com/problems/palindrome-number/)| [Java](./Algorithms/java/leetcode/src/PalindromeNumber/Solution.java) |Easy|
 |10|
 |11|
