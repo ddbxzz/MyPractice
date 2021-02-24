@@ -10,7 +10,7 @@ LeetCode
 |3|[Longest Substring Without Repeating Characters](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)| [Java](./Algorithms/java/leetcode/src/LengthOfLongestSubstring/LengthOfLongestSubstring.java)|Medium|
 |4|
 |5|[Longest Palindromic Substring](https://leetcode-cn.com/problems/longest-palindromic-substring/)| [Java](./Algorithms/java/leetcode/src/LongestPalindromicSubstring/Solution.java)|Medium|
-|6|
+|6|[ZigZag Conversion](https://leetcode-cn.com/problems/zigzag-conversion/)| [Java](./Algorithms/java/leetcode/src/ZigZagConversion/Solution.java)|Medium|
 |7|[Reverse Integer](https://leetcode-cn.com/problems/reverse-integer/)| [Java](./Algorithms/java/leetcode/src/ReverseInteger/Solution.java) |Easy|
 |8|
 |9|[Palindrome Number](https://leetcode-cn.com/problems/palindrome-number/)| [Java](./Algorithms/java/leetcode/src/PalindromeNumber/Solution.java) |Easy|
