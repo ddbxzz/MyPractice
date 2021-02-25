@@ -19,7 +19,7 @@ LeetCode
 |12|[Integer to Roman](https://leetcode-cn.com/problems/integer-to-roman/)| [Java](./Algorithms/java/leetcode/src/IntegerToRoman/Solution.java) |Medium|
 |13|[Roman to Integer](https://leetcode-cn.com/problems/roman-to-integer/)| [Java](./Algorithms/java/leetcode/src/RomanToInt/Solution.java) |Easy|
 |14|[Longest Common Prefix](https://leetcode-cn.com/problems/longest-common-prefix/)| [Java](./Algorithms/java/leetcode/src/LongestCommonPrefix/Solution.java) |Easy|
-|15|
+|15|[3Sum](https://leetcode-cn.com/problems/3sum/)| [Java](./Algorithms/java/leetcode/src/ThreeSum/Solution.java) |Medium|
 |16|
 |17|
 |18|
