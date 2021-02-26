@@ -22,7 +22,7 @@ LeetCode
 |15|[3Sum](https://leetcode-cn.com/problems/3sum/)| [Java](./Algorithms/java/leetcode/src/ThreeSum/Solution.java) |Medium|
 |16|[3Sum Closest](https://leetcode-cn.com/problems/3sum-closest/)| [Java](./Algorithms/java/leetcode/src/ThreeSumCloset/Solution.java) |Medium|
 |17|[Letter Combinations of a Phone Number](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/)| [Java](./Algorithms/java/leetcode/src/LetterPhoneNumber/Solution.java) |Medium|
-|18|
+|18|[4Sum](https://leetcode-cn.com/problems/4sum/)| [Java](./Algorithms/java/leetcode/src/FourSum/Solution.java) |Medium|
 |19|
 |20|[Valid Parentheses](https://leetcode-cn.com/problems/valid-parentheses/)| [Java](./Algorithms/java/leetcode/src/ValidParentheses/Solution.java) |Easy|
 |21|[Merge Two Sorted Lists](https://leetcode-cn.com/problems/merge-two-sorted-lists/)| [Java](./Algorithms/java/leetcode/src/MergeTwoLists/Solution.java) |Easy|
