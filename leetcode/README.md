@@ -21,7 +21,7 @@ LeetCode
 |14|[Longest Common Prefix](https://leetcode-cn.com/problems/longest-common-prefix/)| [Java](./Algorithms/java/leetcode/src/LongestCommonPrefix/Solution.java) |Easy|
 |15|[3Sum](https://leetcode-cn.com/problems/3sum/)| [Java](./Algorithms/java/leetcode/src/ThreeSum/Solution.java) |Medium|
 |16|[3Sum Closest](https://leetcode-cn.com/problems/3sum-closest/)| [Java](./Algorithms/java/leetcode/src/ThreeSumCloset/Solution.java) |Medium|
-|17|
+|17|[Letter Combinations of a Phone Number](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/)| [Java](./Algorithms/java/leetcode/src/LetterPhoneNumber/Solution.java) |Medium|
 |18|
 |19|
 |20|[Valid Parentheses](https://leetcode-cn.com/problems/valid-parentheses/)| [Java](./Algorithms/java/leetcode/src/ValidParentheses/Solution.java) |Easy|
