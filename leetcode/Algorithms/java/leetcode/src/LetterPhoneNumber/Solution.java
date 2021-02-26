@@ -7,7 +7,7 @@ import java.util.List;
 
 
 public class Solution {
-    //DFS
+
     String[] strArray = {null, null, "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"};
     public List<String> letterCombinations(String digits) {
         List<String> res = new ArrayList<>();
@@ -15,10 +15,26 @@ public class Solution {
             return res;
         }
 
-        DFS(res, 0, digits, new StringBuilder());
+        //DFS(res, 0, digits, new StringBuilder());
+        BFS(res, digits);
         return res;
     }
-
+    //BFS
+    private void BFS(List<String> ans, String str) {
+        int n = str.length();
+        ans.add("");
+        for (int i = 0; i < n; i++) {
+            String letters = strArray[str.charAt(i) - '0'];
+            int size = ans.size();
+            for (int j = 0; j < size; j++) {
+                String tmp = ans.remove(0);
+                for (int k = 0; k < letters.length(); k++) {
+                    ans.add(tmp + letters.charAt(k));
+                }
+            }
+        }
+    }
+    //DFS
     private void DFS(List<String> ans, int index, String str, StringBuilder sb) {
         if (index == str.length()) {
             ans.add(sb.toString());
