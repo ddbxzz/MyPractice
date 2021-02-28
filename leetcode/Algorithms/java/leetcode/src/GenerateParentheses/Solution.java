@@ -41,11 +41,7 @@ public class Solution {
             }
         }
 
-        if (banc == 0) {
-            return true;
-        }
-
-        return false;
+        return banc == 0;
     }
 
     @Test
