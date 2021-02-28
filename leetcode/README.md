@@ -26,7 +26,7 @@ LeetCode
 |19|[Remove Nth Node From End of List](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/)| [Java](./Algorithms/java/leetcode/src/RemoveNEndList/Solution.java) |Medium|
 |20|[Valid Parentheses](https://leetcode-cn.com/problems/valid-parentheses/)| [Java](./Algorithms/java/leetcode/src/ValidParentheses/Solution.java) |Easy|
 |21|[Merge Two Sorted Lists](https://leetcode-cn.com/problems/merge-two-sorted-lists/)| [Java](./Algorithms/java/leetcode/src/MergeTwoLists/Solution.java) |Easy|
-|22|
+|22|[Generate Parentheses](https://leetcode-cn.com/problems/generate-parentheses/)| [Java](./Algorithms/java/leetcode/src/GenerateParentheses/Solution.java) |Medium|
 |23|
 |24|
 |25|
