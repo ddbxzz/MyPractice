@@ -3,14 +3,17 @@ package GenerateParentheses;
 import org.junit.Test;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
+import java.util.Queue;
 
 public class Solution {
     public List<String> generateParenthesis(int n) {
         List<String> result = new ArrayList<>();
         //generateAll(new char[2 * n], 0, result);
         //backtrack(result, new StringBuilder(), 0, 0, n);
-        result = generate(n);
+        //result = generate(n);
+        result = bfs(n);
         return result;
     }
 
@@ -88,9 +91,46 @@ public class Solution {
         return ans;
     }
 
+    //BFS
+    class Node {
+        private String res;
+        private int left;
+        private int right;
+
+        public Node(String res, int left, int right) {
+            this.res = res;
+            this.left = left;
+            this.right = right;
+        }
+    }
+
+    public List<String> bfs(int n) {
+        List<String> res = new ArrayList<>();
+        if (n == 0) {
+            return res;
+        }
+
+        Queue<Node> queue = new LinkedList<>();
+        queue.offer(new Node("", 0, 0));
+        while (!queue.isEmpty()) {
+            Node poll = queue.poll();
+            if (poll.left == n && poll.right == n) {
+                res.add(poll.res);
+            }
+
+            if (poll.left < n) {
+                queue.add(new Node(poll.res + "(", poll.left + 1, poll.right));
+            }
+            if (poll.right < n && poll.right < poll.left) {
+                queue.add(new Node(poll.res + ")", poll.left, poll.right + 1));
+            }
+        }
+        return res;
+    }
+
     @Test
     public void test() {
-        List<String> strings = generateParenthesis(2);
+        List<String> strings = generateParenthesis(3);
         for (String s : strings) {
             System.out.println(s);
         }
