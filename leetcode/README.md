@@ -28,7 +28,7 @@ LeetCode
 |21|[Merge Two Sorted Lists](https://leetcode-cn.com/problems/merge-two-sorted-lists/)| [Java](./Algorithms/java/leetcode/src/MergeTwoLists/Solution.java) |Easy|
 |22|[Generate Parentheses](https://leetcode-cn.com/problems/generate-parentheses/)| [Java](./Algorithms/java/leetcode/src/GenerateParentheses/Solution.java) |Medium|
 |23|
-|24|[Swap Nodes in Pairs](https://leetcode-cn.com/problems/swap-nodes-in-pairs/)| [Java](./Algorithms/java/leetcode/src/GenerateParentheses/Solution.java) |Medium|
+|24|[Swap Nodes in Pairs](https://leetcode-cn.com/problems/swap-nodes-in-pairs/)| [Java](./Algorithms/java/leetcode/src/SwapNodesPairs/Solution.java) |Medium|
 |25|
 |26|[Remove Duplicates from Sorted Array](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/)| [Java](./Algorithms/java/leetcode/src/RemoveArrayDuplicates/Solution.java) |Easy|
 |27|[Remove Element](https://leetcode-cn.com/problems/remove-element/)| [Java](./Algorithms/java/leetcode/src/RemoveElement/Solution.java) |Easy|
