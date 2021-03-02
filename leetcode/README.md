@@ -38,7 +38,7 @@ LeetCode
 |31|[Next Permutation](https://leetcode-cn.com/problems/next-permutation/)| [Java](./Algorithms/java/leetcode/src/NextPermutation/Solution.java) |Medium|
 |32|
 |33|[Search in Rotated Sorted Array](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/)| [Java](./Algorithms/java/leetcode/src/SearchRSArray/Solution.java) |Medium|
-|34|
+|34|[Find First and Last Position of Element in Sorted Array](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/)| [Java](./Algorithms/java/leetcode/src/FLPosInSortedArray/Solution.java) |Medium|
 |35|[Search Insert Position](https://leetcode-cn.com/problems/search-insert-position/)| [Java](./Algorithms/java/leetcode/src/SearchInsertPosition/Solution.java) |Easy|
 |36|
 |37|
