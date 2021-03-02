@@ -37,7 +37,7 @@ LeetCode
 |30|
 |31|[Next Permutation](https://leetcode-cn.com/problems/next-permutation/)| [Java](./Algorithms/java/leetcode/src/NextPermutation/Solution.java) |Medium|
 |32|
-|33|
+|33|[Search in Rotated Sorted Array](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/)| [Java](./Algorithms/java/leetcode/src/SearchRSArray/Solution.java) |Medium|
 |34|
 |35|[Search Insert Position](https://leetcode-cn.com/problems/search-insert-position/)| [Java](./Algorithms/java/leetcode/src/SearchInsertPosition/Solution.java) |Easy|
 |36|
