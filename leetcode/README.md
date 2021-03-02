@@ -40,7 +40,7 @@ LeetCode
 |33|[Search in Rotated Sorted Array](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/)| [Java](./Algorithms/java/leetcode/src/SearchRSArray/Solution.java) |Medium|
 |34|[Find First and Last Position of Element in Sorted Array](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/)| [Java](./Algorithms/java/leetcode/src/FLPosInSortedArray/Solution.java) |Medium|
 |35|[Search Insert Position](https://leetcode-cn.com/problems/search-insert-position/)| [Java](./Algorithms/java/leetcode/src/SearchInsertPosition/Solution.java) |Easy|
-|36|
+|36|[Valid Sudoku](https://leetcode-cn.com/problems/valid-sudoku/)| [Java](./Algorithms/java/leetcode/src/ValidSudoku/Solution.java) |Medium|
 |37|
 |38|[Count and Say](https://leetcode-cn.com/problems/count-and-say/)| [Java](./Algorithms/java/leetcode/src/CountAndSay/Solution.java) |Easy|
 |39|
