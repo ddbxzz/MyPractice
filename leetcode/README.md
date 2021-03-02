@@ -35,7 +35,7 @@ LeetCode
 |28|[Implement strStr()](https://leetcode-cn.com/problems/implement-strstr/)| [Java](./Algorithms/java/leetcode/src/ImplementstrStr/Solution.java) |Easy|
 |29|[Divide Two Integers](https://leetcode-cn.com/problems/divide-two-integers/)| [Java](./Algorithms/java/leetcode/src/DivideTwoIntegers/Solution.java) |Medium|
 |30|
-|31|
+|31|[Next Permutation](https://leetcode-cn.com/problems/next-permutation/)| [Java](./Algorithms/java/leetcode/src/DivideTwoIntegers/Solution.java) |Medium|
 |32|
 |33|
 |34|

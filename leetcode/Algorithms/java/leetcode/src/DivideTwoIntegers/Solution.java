@@ -1,5 +1,7 @@
 package DivideTwoIntegers;
 
+import org.junit.Test;
+
 public class Solution {
     /*
     https://leetcode-cn.com/problems/divide-two-integers/solution/javabu-shi-yong-longxing-yi-wei-xiang-jian-by-jzj1/
@@ -34,7 +36,7 @@ public class Solution {
         while (dividend >= divisor) {
             int x = divisor;
             int r = 1;
-            while (x <= (dividend >> 2)) {
+            while (x <= (dividend >> 1)) {
                 x <<= 1;
                 r <<= 1;
             }
@@ -43,5 +45,12 @@ public class Solution {
         }
 
         return (isNeg ? -result : result) + fix;
+    }
+
+    @Test
+    public void test() {
+        int x = 100;
+        int y = 3;
+        System.out.println(divide(x, y));
     }
 }
