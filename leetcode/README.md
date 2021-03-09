@@ -45,6 +45,7 @@ LeetCode
 |38|[Count and Say](https://leetcode-cn.com/problems/count-and-say/)| [Java](./Algorithms/java/leetcode/src/CountAndSay/Solution.java) |Easy|
 |39|[Combination Sum](https://leetcode-cn.com/problems/combination-sum/)| [Java](./Algorithms/java/leetcode/src/CombinationSum/Solution.java) |Medium|
 |40|[Combination Sum II](https://leetcode-cn.com/problems/combination-sum-ii/)| [Java](./Algorithms/java/leetcode/src/CombinationSumII/Solution.java) |Medium|
+|43|[Multiply Strings](https://leetcode-cn.com/problems/multiply-strings/)| [Java](./Algorithms/java/leetcode/src/MultiplyStrings/Solution.java) |Medium|
 |53|[Maximum Subarray](https://leetcode-cn.com/problems/maximum-subarray/)| [Java](./Algorithms/java/leetcode/src/MaximumSubarray/Solution.java) |Easy|
 |58|[Length of Last Word](https://leetcode-cn.com/problems/length-of-last-word/)| [Java](./Algorithms/java/leetcode/src/LengthLastWord/Solution.java) |Easy|
 |66|[Plus One](https://leetcode-cn.com/problems/plus-one/)| [Java](./Algorithms/java/leetcode/src/PlusOne/Solution.java) |Easy|
