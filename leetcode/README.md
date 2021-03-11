@@ -47,7 +47,8 @@ LeetCode
 |40|[Combination Sum II](https://leetcode-cn.com/problems/combination-sum-ii/)| [Java](./Algorithms/java/leetcode/src/CombinationSumII/Solution.java) |Medium|
 |43|[Multiply Strings](https://leetcode-cn.com/problems/multiply-strings/)| [Java](./Algorithms/java/leetcode/src/MultiplyStrings/Solution.java) |Medium|
 |46|[Permutations](https://leetcode-cn.com/problems/permutations/)| [Java](./Algorithms/java/leetcode/src/Permutations/Solution.java) |Medium|
-|46|[Permutations II](https://leetcode-cn.com/problems/permutations-ii/)| [Java](./Algorithms/java/leetcode/src/PermutationsII/Solution.java) |Medium|
+|47|[Permutations II](https://leetcode-cn.com/problems/permutations-ii/)| [Java](./Algorithms/java/leetcode/src/PermutationsII/Solution.java) |Medium|
+|48|[Rotate Image](https://leetcode-cn.com/problems/rotate-image/)| [Java](./Algorithms/java/leetcode/src/RotateImage/Solution.java) |Medium|
 |53|[Maximum Subarray](https://leetcode-cn.com/problems/maximum-subarray/)| [Java](./Algorithms/java/leetcode/src/MaximumSubarray/Solution.java) |Easy|
 |58|[Length of Last Word](https://leetcode-cn.com/problems/length-of-last-word/)| [Java](./Algorithms/java/leetcode/src/LengthLastWord/Solution.java) |Easy|
 |66|[Plus One](https://leetcode-cn.com/problems/plus-one/)| [Java](./Algorithms/java/leetcode/src/PlusOne/Solution.java) |Easy|
