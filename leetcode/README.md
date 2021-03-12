@@ -50,6 +50,7 @@ LeetCode
 |47|[Permutations II](https://leetcode-cn.com/problems/permutations-ii/)| [Java](./Algorithms/java/leetcode/src/PermutationsII/Solution.java) |Medium|
 |48|[Rotate Image](https://leetcode-cn.com/problems/rotate-image/)| [Java](./Algorithms/java/leetcode/src/RotateImage/Solution.java) |Medium|
 |49|[Group Anagrams](https://leetcode-cn.com/problems/group-anagrams/)| [Java](./Algorithms/java/leetcode/src/GroupAnagrams/Solution.java) |Medium|
+|50|[Pow(x, n)](https://leetcode-cn.com/problems/powx-n/)| [Java](./Algorithms/java/leetcode/src/PowxN/Solution.java) |Medium|
 |53|[Maximum Subarray](https://leetcode-cn.com/problems/maximum-subarray/)| [Java](./Algorithms/java/leetcode/src/MaximumSubarray/Solution.java) |Easy|
 |58|[Length of Last Word](https://leetcode-cn.com/problems/length-of-last-word/)| [Java](./Algorithms/java/leetcode/src/LengthLastWord/Solution.java) |Easy|
 |66|[Plus One](https://leetcode-cn.com/problems/plus-one/)| [Java](./Algorithms/java/leetcode/src/PlusOne/Solution.java) |Easy|
