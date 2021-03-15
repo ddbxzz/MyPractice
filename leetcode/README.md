@@ -53,6 +53,7 @@ LeetCode
 |50|[Pow(x, n)](https://leetcode-cn.com/problems/powx-n/)| [Java](./Algorithms/java/leetcode/src/PowxN/Solution.java) |Medium|
 |53|[Maximum Subarray](https://leetcode-cn.com/problems/maximum-subarray/)| [Java](./Algorithms/java/leetcode/src/MaximumSubarray/Solution.java) |Easy|
 |54|[Spiral Matrix](https://leetcode-cn.com/problems/spiral-matrix/)| [Java](./Algorithms/java/leetcode/src/SpiralMatrix/Solution.java) |Medium|
+|55|[Jump Game](https://leetcode-cn.com/problems/jump-game/)| [Java](./Algorithms/java/leetcode/src/JumpGame/Solution.java) |Medium|
 |58|[Length of Last Word](https://leetcode-cn.com/problems/length-of-last-word/)| [Java](./Algorithms/java/leetcode/src/LengthLastWord/Solution.java) |Easy|
 |66|[Plus One](https://leetcode-cn.com/problems/plus-one/)| [Java](./Algorithms/java/leetcode/src/PlusOne/Solution.java) |Easy|
 |67|[Add Binary](https://leetcode-cn.com/problems/add-binary/)| [Java](./Algorithms/java/leetcode/src/AddBinary/Solution.java) |Easy|
