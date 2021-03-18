@@ -59,6 +59,7 @@ LeetCode
 |58|[Length of Last Word](https://leetcode-cn.com/problems/length-of-last-word/)| [Java](./Algorithms/java/leetcode/src/LengthLastWord/Solution.java) |Easy|
 |59|[Spiral Matrix II](https://leetcode-cn.com/problems/spiral-matrix-ii/)| [Java](./Algorithms/java/leetcode/src/SpiralMatrixII/Solution.java) |Medium|
 |61|[Rotate List](https://leetcode-cn.com/problems/rotate-list/)| [Java](./Algorithms/java/leetcode/src/RotateList/Solution.java) |Medium|
+|62|[Unique Paths](https://leetcode-cn.com/problems/unique-paths/)| [Java](./Algorithms/java/leetcode/src/UniquePaths/Solution.java) |Medium|
 |66|[Plus One](https://leetcode-cn.com/problems/plus-one/)| [Java](./Algorithms/java/leetcode/src/PlusOne/Solution.java) |Easy|
 |67|[Add Binary](https://leetcode-cn.com/problems/add-binary/)| [Java](./Algorithms/java/leetcode/src/AddBinary/Solution.java) |Easy|
 |69|[Sqrt(x)](https://leetcode-cn.com/problems/sqrtx/)| [Java](./Algorithms/java/leetcode/src/SqrtX/Solution.java) |Easy|
