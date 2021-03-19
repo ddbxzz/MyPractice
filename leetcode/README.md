@@ -61,6 +61,7 @@ LeetCode
 |61|[Rotate List](https://leetcode-cn.com/problems/rotate-list/)| [Java](./Algorithms/java/leetcode/src/RotateList/Solution.java) |Medium|
 |62|[Unique Paths](https://leetcode-cn.com/problems/unique-paths/)| [Java](./Algorithms/java/leetcode/src/UniquePaths/Solution.java) |Medium|
 |63|[Unique Paths II](https://leetcode-cn.com/problems/unique-paths-ii/)| [Java](./Algorithms/java/leetcode/src/UniquePathsII/Solution.java) |Medium|
+|64|[Minimum Path Sum](https://leetcode-cn.com/problems/minimum-path-sum/)| [Java](./Algorithms/java/leetcode/src/MinimumPathSum/Solution.java) |Medium|
 |66|[Plus One](https://leetcode-cn.com/problems/plus-one/)| [Java](./Algorithms/java/leetcode/src/PlusOne/Solution.java) |Easy|
 |67|[Add Binary](https://leetcode-cn.com/problems/add-binary/)| [Java](./Algorithms/java/leetcode/src/AddBinary/Solution.java) |Easy|
 |69|[Sqrt(x)](https://leetcode-cn.com/problems/sqrtx/)| [Java](./Algorithms/java/leetcode/src/SqrtX/Solution.java) |Easy|
