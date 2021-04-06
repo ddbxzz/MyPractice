@@ -71,6 +71,7 @@ LeetCode
 |74|[Search a 2D Matrix](https://leetcode-cn.com/problems/search-a-2d-matrix/)| [Java](./Algorithms/java/leetcode/src/Search2DMatrix/Solution.java) |Medium|
 |75|[Sort Colors](https://leetcode-cn.com/problems/sort-colors/)| [Java](./Algorithms/java/leetcode/src/SortColors/Solution.java) |Medium|
 |77|[Combinations](https://leetcode-cn.com/problems/combinations/)| [Java](./Algorithms/java/leetcode/src/Combinations/Solution.java) |Medium|
+|78|[Subsets](https://leetcode-cn.com/problems/subsets/)| [Java](./Algorithms/java/leetcode/src/Subsets/Solution.java) |Medium|
 |83|[Remove Duplicates from Sorted List](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/)| [Java](./Algorithms/java/leetcode/src/DeleteDuplicatesList/Solution.java) |Easy|
 |88|[Merge Sorted Array](https://leetcode-cn.com/problems/merge-sorted-array/)| [Java](./Algorithms/java/leetcode/src/MergeSortedArray/Solution.java) |Easy|
 |100|[Same Tree](https://leetcode-cn.com/problems/same-tree/)| [Java](./Algorithms/java/leetcode/src/SameTree/Solution.java) |Easy|
