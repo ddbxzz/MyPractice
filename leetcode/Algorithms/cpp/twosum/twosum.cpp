@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include <unordered_map>
 using namespace std;
 
 class Solution {
@@ -15,6 +16,20 @@ public:
         }
         return {};
     }
+
+    vector<int> twoSum1(vector<int>& nums, int target) {
+        unordered_map<int, int> map;
+        int r = nums.size();
+
+        for (int i = 0; i < r; i++) {
+            auto iter = map.find(target - nums[i]);
+            if (iter != map.end()) {
+                return {iter->second, i};
+            }
+            map.insert(pair<int, int>(nums[i], i));
+        }
+        return {};
+    }
 };
 
 int main() {
@@ -22,7 +37,7 @@ int main() {
     int target = 9;
 
     Solution s;
-    vector<int> arr = s.twoSum(nums, target);
+    vector<int> arr = s.twoSum1(nums, target);
     if (!arr.empty()) {
         cout<<arr[0]<< " " << arr[1]<<endl;
     }
